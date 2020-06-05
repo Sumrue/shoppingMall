@@ -4,7 +4,7 @@
     <el-header height="40px">
       <div id="header-left">
         <i class="el-icon-sunrise-1"></i>
-        <span>我的站点</span>
+        <span>后台管理</span>
       </div>
       <div>
         <el-button type="primary">登录</el-button>
@@ -64,7 +64,7 @@ export default {
       ],
       menuItemPath: [ // 这是每个子菜单所匹配的路由path,
         ['user'], // 需要在router当中创建匹配的路由路径， 因为elementUI menu Router的机制，
-        ['user12', 'user22', 'user32', 'user42'], // 用上层循环的index和子菜单循环的item来动态引用此处的path数据
+        ['userList', 'authorityList'], // 用上层循环的index和子菜单循环的item来动态引用此处的path数据
         ['user13', 'user21', 'user31', 'user41'],
         ['user14', 'user21', 'user31', 'user41'],
         ['user15', 'user21', 'user31', 'user41']

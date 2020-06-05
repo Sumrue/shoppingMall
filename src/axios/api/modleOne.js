@@ -15,6 +15,10 @@ const modleOne = {
     return axios.get(`${base.book}/userData`) // 注意此处是`不是 '
   },
 
+  // 权限管理，权限列表数据请求
+  authorityListGet () {
+    return axios.get(`${base.book}/authorityListData`)
+  },
   // ************** post请求列表 **************
 
   // 第一个post请求

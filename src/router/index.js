@@ -4,6 +4,7 @@ import Home from '@/page/Home'
 import { Message } from 'element-ui'
 import Wellcome from '@/component/Wellcome'
 import UserOne from '@/component/user/userOne'
+import authorityList from '@/component/authority/authorityList'
 
 Vue.use(Router)
 
@@ -19,9 +20,15 @@ const router = new Router({
           path: '/wellcome',
           component: Wellcome
         },
+        // 用户管理
         {
           path: '/user',
           component: UserOne
+        },
+        // 权限管理
+        {
+          path: '/authorityList',
+          component: authorityList
         }
       ]
     }
