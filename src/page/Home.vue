@@ -64,7 +64,7 @@ export default {
       ],
       menuItemPath: [ // 这是每个子菜单所匹配的路由path,
         ['user'], // 需要在router当中创建匹配的路由路径， 因为elementUI menu Router的机制，
-        ['userList', 'authorityList'], // 用上层循环的index和子菜单循环的item来动态引用此处的path数据
+        ['userAuthList', 'authorityList'], // 用上层循环的index和子菜单循环的item来动态引用此处的path数据
         ['user13', 'user21', 'user31', 'user41'],
         ['user14', 'user21', 'user31', 'user41'],
         ['user15', 'user21', 'user31', 'user41']

@@ -5,6 +5,7 @@ import { Message } from 'element-ui'
 import Wellcome from '@/component/Wellcome'
 import UserOne from '@/component/user/userOne'
 import authorityList from '@/component/authority/authorityList'
+import userAuthList from '@/component/authority/userAuthList'
 
 Vue.use(Router)
 
@@ -29,6 +30,10 @@ const router = new Router({
         {
           path: '/authorityList',
           component: authorityList
+        },
+        {
+          path: '/userAuthList',
+          component: userAuthList
         }
       ]
     }

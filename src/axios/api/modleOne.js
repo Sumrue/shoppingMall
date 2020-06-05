@@ -19,6 +19,10 @@ const modleOne = {
   authorityListGet () {
     return axios.get(`${base.book}/authorityListData`)
   },
+  // 权限管理， 用户列表数据请求
+  userAuthListGet () {
+    return axios.get(`${base.book}/userAuthListData`)
+  },
   // ************** post请求列表 **************
 
   // 第一个post请求
