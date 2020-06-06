@@ -25,7 +25,9 @@ import {
   Form,
   FormItem,
   Message,
-  Tag
+  Tag,
+  MessageBox,
+  Tree
 } from 'element-ui'
 
 Vue.use(Button)
@@ -53,4 +55,7 @@ Vue.use(Dialog)
 Vue.use(Form)
 Vue.use(FormItem)
 Vue.use(Tag)
+Vue.use(Tree)
 Vue.prototype.$message = Message // 将此弹框组件挂载到原型上 通过this直接调用，注意不要用vue.use(Message),不然不能成功调用，而且还会在页面中出现的空白的message组件弹出
+Vue.prototype.$confirm = MessageBox.confirm
+Vue.prototype.alert = MessageBox.alert

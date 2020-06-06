@@ -23,6 +23,10 @@ const modleOne = {
   userAuthListGet () {
     return axios.get(`${base.book}/userAuthListData`)
   },
+  // 权限列表，角色列表分配权限数据
+  userAuthListAllGet () {
+    return axios.get(`${base.book}/userAuthListAll`)
+  },
   // ************** post请求列表 **************
 
   // 第一个post请求
