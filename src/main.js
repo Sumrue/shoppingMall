@@ -7,7 +7,7 @@ import '@/assets/css/rest.css' // 样式重置
 import '@/assets/css/global.css' // 全局样式 ，设置全局
 import '@/assets/plugins/element-ui' // element-ui 按需引入文件夹
 import MetaInfo from 'vue-meta-info' // 全局配置TDK
-require('@/assets/mock/index.js') // 用mock 模拟数据
+// require('@/assets/mock/index.js') // 用mock 模拟数据
 
 Vue.use(MetaInfo)
 
